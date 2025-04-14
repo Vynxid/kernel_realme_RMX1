@@ -21,7 +21,7 @@ jobs:
         NAME: Loganysl
       with:
         arch: arm64
-        compiler: gcc/12
+        compiler: gcc/13
         defconfig: sdm670_defconfig
         image: Image.gz-dtb
 
